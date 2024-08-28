@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*  margin-top: -150px; */
+    /* padding-bottom: -20px;  */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    /* margin-top: -150px; */
+}
+
+.navbar-logo img {
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
+    /* margin-top: -150px; */
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    gap: 20px;
+    font-size: 1.8rem;
+    /* margin-top: -105px; */
+}
+
+.navbar-links li {
+    margin-left: 20px;
+    /* margin-top: -105px; */
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    /* margin-top: -105px; */
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-left:1050px;
+    margin-top: -350px;
+    margin-bottom: 90px;
+    /* margin-top: -350px; */
+    border-radius: 4px;
+    /* border: 1px solid #ccc; */
+    
+}
+
+.navbar-links a:hover {
+    /* background-color: #f0f0f0; */
+    border-bottom: 2px solid lightgray;
+    /* padding-bottom: 5px; */
+  }
+
+.navbar-search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* margin-top: -250px; */
+}
+
+.navbar-search button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: -20px;
+    /* margin-top: -250px; */
+}
+
+
+
+
+        header {
+            /* background-color: #ff6600; */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .search-container {
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .search-bar {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: -20px;
+        }
+
+        .filters {
+            width: 20%;
+            padding: 10px;
+            /* border: 1px solid #ccc; */
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: 1030px;
+            margin-bottom: 120px;
+            /* margin-top: 15px;
+            margin-bottom: -30px; */
+
+        }
+
+        /* --------------------------------------------------- */
+
+          .filters label {
+            font-weight: bold;
+          }
+          
+          .filters input[type="date"],
+          .filters select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+          
+          .filters button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          .filters button:hover {
+            background-color: #0069d9;
+          }
+        /* ------------------------------------------------------ */
+
+        .hotel-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .hotel-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .hotel-info {
+            padding: 15px;
+        }
+
+        .hotel-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .hotel-location {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .hotel-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .hotel-rating i {
+            color: #ffcc00;
+            margin-right: 5px;
+        }
+
+        .hotel-price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff6600;
+        }
+
+        .hotel-discount {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+
+        /* 3rd one  */
+
+        
+        .container {
+            display: flex;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+
+        .explore-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .explore-image {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .explore-text {
+            font-size: 1.2em;
+            font-weight: bold;
+
+        }.container {
+            display: flex;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+          }
+      
+          .image-container {
+            width: 30%;
+            height: 31%;
+            background-color: light;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      
+          .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+      
+          .details-container {
+            width: 70%;
+            background-color: rgb(152, 200, 240);
+            padding: 2px;
+            padding-left: 20px;
+            gap: 10px;
+            /* margin-top: -15px; */
+          }
+      
+          .details-container h2 {
+            margin-bottom: 10px;
+          }
+      
+          .details-container p {
+            margin-bottom: 5px;
+          }
+      
+          .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+
+          #myParagraph {
+            font-size: 24px;
+            margin-right:30px;
+          }
+
+          footer {
+            background-color: #f2f2f2;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container-fooo {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: #666;
+        }
+        .hero-section {
+            /* background-color: #f2f2f2; Or use a transparent background for the image to shine through */
+            height: 400px; /* Adjust the height as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Place the image behind the content */
+          }
+          
+          .hero-content {
+            text-align: center;
+            color: rgb(7, 65, 189); /* Adjust the color to contrast with the image */
+            margin-left: 240px;
+          }
+          
+          .hero-logo {
+            width: 150px; /* Adjust the size as needed */
+            margin-bottom: 20px;
+          }
+          
+          .hero-title {
+            font-size: 48px; /* Adjust the font size */
+            font-weight: bold;
+            margin-top: 180px;
+            padding-bottom: -10px;
+          }
+          
+          .hero-subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+          }
+          
+          .hero-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+          }
+
+
+
+
+      
+          
